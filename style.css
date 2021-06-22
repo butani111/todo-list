@@ -47,7 +47,7 @@
 
 .item-add-btn{
   display: inline-block;
-  width: 10%;
+  width: 45px;
   height: 25px;
   font-size: 1.2rem;
   text-align: center;
@@ -98,6 +98,9 @@
     margin-top: 20px;
     width: 95%;
   }
+  .input-1{
+    width: 70%;
+  }
   .item-list{
     height: 300px;
   }
@@ -116,10 +119,11 @@
 @media (max-width:360px){
   .input-1{
     font-size: 1rem;
-    width: 70%;
+    width: 65%;
   }
   .item-add-btn{
     font-size: 1rem;
+    width: 40px;
     padding-top: 4px;
   }
 }
@@ -134,8 +138,7 @@
   .item-add-btn{
     display: block;
     font-size: 1.1rem;
-    /* padding-top: 4px; */
-    width: 50px;
-    margin: 2px auto;
+    width: 50%;
+    margin: 2px 25%;
   }
 }
