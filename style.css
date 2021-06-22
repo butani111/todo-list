@@ -1,0 +1,141 @@
+.mx-1{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.mx-2{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.mr-2{
+  margin-right: 2%;
+}
+.text-center{
+  text-align: center;
+}
+.light-text{
+  opacity: 0.5;
+}
+
+
+/* -------------------------------- */
+
+.main{
+  width: 480px;
+  margin: 50px auto;
+  padding: 10px 0 5px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 3px grey;
+}
+
+.title-1{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-1{
+  width: 75%;
+  font-size: 1.2rem;
+  margin: 0% 2% 0% 5%;
+  padding: 5px 5px 5px 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.item-add-btn{
+  display: inline-block;
+  width: 10%;
+  height: 25px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item-add-btn:hover{
+  background-color: rgb(81, 238, 81);
+}
+
+.item-list{
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  font-size: 1.2rem;
+  height: 400px;
+  overflow: auto;
+}
+
+.item-content{
+  display: inline-block;
+  width: 80%;
+  font-size: 1.5rem;
+  margin: 5px auto;
+  word-wrap: break-word;
+}
+
+.remove-item-btn1{
+  float: left;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: red;
+  cursor: pointer;
+}
+
+.edit-item-btn1{
+  float: right;
+  margin-top: 5px;
+  width: 16px;
+  cursor: pointer;
+}
+
+/* - - - - - - - - - - - - - - -  */
+
+@media (max-width:500px){
+  .main{
+    margin-top: 20px;
+    width: 95%;
+  }
+  .item-list{
+    height: 300px;
+  }
+  .item-content{
+    font-size: 1.1rem;
+  }
+  .remove-item-btn1{
+    font-size: 1.5rem;
+    margin-right: 4%;
+  }
+  .edit-item-btn1{
+    width: 13px;
+  }
+}
+
+@media (max-width:360px){
+  .input-1{
+    font-size: 1rem;
+    width: 70%;
+  }
+  .item-add-btn{
+    font-size: 1rem;
+    padding-top: 4px;
+  }
+}
+
+@media (max-width:300px){
+  .input-1{
+    display: block;
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .item-add-btn{
+    display: block;
+    font-size: 1.1rem;
+    /* padding-top: 4px; */
+    width: 50px;
+    margin: 2px auto;
+  }
+}
