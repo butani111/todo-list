@@ -7,4 +7,8 @@ Demo image :
 
 Link : https://my-todo-list-99.netlify.app/
 
+## Technologies Used
+HTML | CSS | Javascript
+#
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e7fc0e9c-3800-43b8-8130-ad948b0e4649/deploy-status)](https://app.netlify.com/sites/my-todo-list-99/deploys)
